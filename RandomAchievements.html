@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Achievements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        /* Container styling */
+        .container {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 600px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Title styling */
+        h1 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Achievement styling */
+        .achievement {
+            background-color: #f4f4f9;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: transform 0.3s;
+        }
+
+        /* Icon styling */
+        .achievement-icon {
+            font-size: 2em;
+            color: #2575fc;
+        }
+
+        /* Hover effect */
+        .achievement:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Achievements</h1>
+
+        <!-- Achievement items -->
+        <div class="achievement">
+            <span class="achievement-icon">🎓</span>
+            <div>
+                <h2>College Vice President</h2>
+                <p>Appointed as Vice President in September 2024, leading various initiatives and projects.</p>
+            </div>
+        </div>
+
+        <div class="achievement">
+            <span class="achievement-icon">💻</span>
+            <div>
+                <h2>Supermarket App Project</h2>
+                <p>Completed a Java OOP project on creating a supermarket app through Coursera, October 2024.</p>
+            </div>
+        </div>
+
+        <div class="achievement">
+            <span class="achievement-icon">✍️</span>
+            <div>
+                <h2>Content Writer</h2>
+                <p>Produced engaging and SEO-friendly content for client websites and marketing materials.</p>
+            </div>
+        </div>
+
+        <div class="achievement">
+            <span class="achievement-icon">🚀</span>
+            <div>
+                <h2>Launched Digital Marketing Startup</h2>
+                <p>Founded 'CelestialPixel' to offer digital marketing services tailored for SMEs.</p>
+            </div>
+        </div>
+
+        <!-- Additional achievements can be added here -->
+
+    </div>
+
+    <!-- Footer -->
+    <footer>&copy; 2024 Your Name. All Rights Reserved.</footer>
+</body>
+</html>
