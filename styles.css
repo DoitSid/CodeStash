@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(to bottom right, pink, white, yellow);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #ff69b4;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* About Section */
+.about {
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+
+/* Collection Section */
+.collection {
+    margin-top: 30px;
+}
+
+.collection h2 {
+    font-size: 1.8em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item p {
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
